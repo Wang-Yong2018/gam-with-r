@@ -1,0 +1,43 @@
+---
+title: "6. GAM theory"
+author: "WY"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 6. GAM theory
+
+## 6.1 Setting up the model
+
+## 6.2 Smoothness selection criteria
+
+## 6.3 Computing the smoothing parameter estimates
+
+## 6.4 The generalized Fellner-Schall method
+
+## 6.5 Direct Gaussian case and performance iteration(PQL)
+
+## 6.6 Direct nested iteration methods
+
+## 6.7 Initial smoothing parameter guesses
+
+## 6.8 GAMM methods
+
+## 6.9 Bigger data methods
+
+## 6.10 Posterior distribution and confidence intervals
+
+## 6.11 AIC and smoothing parameter uncertainty
+
+## 6.12 Hypothessis testing and p-values
+
+## 6.13 Other model selection approaches
+
+## 6.14 Further GAM theory
+
+## 6.15 Exercise
+

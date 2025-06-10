@@ -1,0 +1,38 @@
+---
+title: '7 GAMs in Practice: mgcv'
+author: "WY"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 7. GAMS in Practice : mgcv
+
+## 7.1 Specifying smooths
+
+## 7.2 Brain imaging example
+
+## 7.3 A smooth Anova model for diabetic retinopathy
+
+## 7.4 Air pollution in Chicago
+
+## 7.5 Mackeral egg survey example
+
+## 7.6 Spatial smoothing of Portuguese larks data 
+
+## 7.7 Generalized additive mixed models with R 
+
+## 7.8 Primary biliary cirrhosis survival analysis
+
+## 7.9 Location-scale modelling
+
+## 7.10 Fuel efficiency of cars: Multivariate additive models
+
+## 7.11 Functional data analysis
+
+## 7.12 Other packages
+
+## 7.13 Exercises

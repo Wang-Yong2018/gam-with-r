@@ -1,0 +1,26 @@
+---
+title: "4 Introducing GAMS"
+author: "WY"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 4. Introducing GAMs
+
+## 4.1 Introduction
+
+## 4.2 Univariate smoothing
+
+## 4.3 Additive models
+
+## 4.4 Generalized additive models
+
+## 4.5 Summary
+
+## 4.6 Introducing Package mgcv
+
+## 4.7 Exercises

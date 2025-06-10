@@ -1,0 +1,44 @@
+---
+title: "Chapter1 linear models"
+author: "WY"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 1 Linear Modesl
+
+## 1.1 A simple linear model
+
+### 1.1.1 Sampling properties of $\hat{B}$
+
+### 1.1.2 So how old is the universe?
+```{r}
+library(gamair) ## contains ‘hubble’
+data(hubble)
+hub.mod1 <- lm(y ~ x- 1, data=hubble)
+summary(hub.mod1)
+plot(fitted(hub.mod1),residuals(hub.mod1),xlab="fitted values",
+ ylab="residuals")
+hubble.const <- c(coef(hub.mod1),coef(hub.mod1))/3.09e19
+age <- 1/hubble.const
+age/(60^2*24*365)
+```
+
+
+## 1.2 Linear models in general
+
+## 1.3 The theroy of linear models
+
+## 1.4 the geometry of linear modelling
+
+## 1.5 Practiceing linear modelling
+
+## 1.6 Practical modelling with factors
+
+## 1.7 General linear model specification with R
+
+## 1.8 Further linear modelling theory
